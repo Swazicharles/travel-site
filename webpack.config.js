@@ -1,6 +1,6 @@
 const path = require("path")
 const { Server } = require("tls")
-const postCSSPlugins = [require("postcss-mixins"), require("postcss-import"), require("postcss-simple-vars"), require("postcss-nested"), require("autoprefixer")]
+const postCSSPlugins = [require("postcss-hexrgba"), require("postcss-mixins"), require("postcss-import"), require("postcss-simple-vars"), require("postcss-nested"), require("autoprefixer")]
 
 module.exports = {
   entry: "./app/assets/scripts/App.js",
